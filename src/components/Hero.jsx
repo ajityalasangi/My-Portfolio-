@@ -8,7 +8,10 @@ function Hero(){
                 <h1 className="text-5xl font-medium pb-2">Hi, I’m Ajit 👋</h1>
                 {/* do the typewriter work later for now only typewriter npm module is been installed. Typewriter github repo link: https://github.com/tameemsafi/typewriterjs*/}
                 <p className="text-gray-700 pb-4 text-2xl">I build fast, modern, and user-friendly web experiences. </p>
-                <button className="transition ease-in-out bg-indigo-500 text-white px-4 py-2 rounded-md hover:bg-indigo-700">View Projects</button>
+                <a href="/projects">
+                    <button className="transition ease-in-out bg-indigo-500 text-white px-4 py-2 rounded-md hover:bg-indigo-700">View Projects</button>
+
+                </a>
                 <div className="flex gap-3 mt-4">
                     <a href="https://www.linkedin.com/in/ajit-yalasangi-517329276/" target="_blank" aria-label="Open Ajit's LinkedIn" rel="noopener noreferrer" className="text-indigo-600 hover:text-indigo-800">
                         <FaLinkedin className="text-3xl md:text-4xl" />
