@@ -63,8 +63,12 @@ function Home() {
                             <span className="bg-blue-100 text-blue-700 px-2 py-1 rounded">Tailwind</span>
                         </div>
                         <div className="flex gap-3 mt-4">
-                            <button className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700">Demo</button>
-                            <button className="bg-gray-200 px-4 py-2 rounded-md hover:bg-gray-300">Code</button>
+                            <a href="http://ajityalasangiportfolio.netlify.app" target="_blank">
+                                <button className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700">Demo</button>
+                            </a>
+                            <a href="https://github.com/ajityalasangi/My-Portfolio-" target="_blank">
+                                <button className="bg-gray-200 px-4 py-2 rounded-md hover:bg-gray-300">Code</button>
+                            </a>
                         </div>
                     </div>
 
